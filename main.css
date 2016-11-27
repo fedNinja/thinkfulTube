@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.headBar{
+	height:10%;
+	text-align: center;
+	background-color:#6799FF;
+	margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.inputText{
+	height: 40px;
+	width: 400px;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.button-search{
+	border:0;
+	background-color: transparent;
+}
+
+.searchDiv{
+	text-align: center;
+}
+
+.container{
+	margin-top:20px;
+
+}
+
+.titleItem{
+	width:200px;
+	white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.titleItem:hover{
+	text-overflow: inherit;
+    overflow: visible;
+    position:absolute;
+    bottom:2px;
+    width:300px;
+    white-space:normal;
+    color:black;
+   }
